@@ -2,8 +2,34 @@ import vuetify from 'vite-plugin-vuetify'
 
 export default defineNuxtConfig({
   ssr: false,
-  css: ['vuetify/styles', '~/assets/main.scss'],
-  build: { transpile: ['vuetify'] },
-  vite: { ssr: { noExternal: ['vuetify'] }, plugins: [vuetify({ autoImport: true })] },
-  app: { head: { title: 'QUÁN CHAY MIMI · Bếp Thiền Lành' } }
+
+  nitro: {
+    preset: 'cloudflare'
+  },
+
+  css: [
+    'vuetify/styles',
+    '~/assets/main.scss'
+  ],
+
+  build: {
+    transpile: ['vuetify']
+  },
+
+  vite: {
+    ssr: {
+      noExternal: ['vuetify']
+    },
+    plugins: [
+      vuetify({
+        autoImport: true
+      })
+    ]
+  },
+
+  app: {
+    head: {
+      title: 'QUÁN CHAY MIMI · Bếp Thiền Lành'
+    }
+  }
 })

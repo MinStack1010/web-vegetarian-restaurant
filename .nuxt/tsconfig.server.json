@@ -29,6 +29,15 @@
       "@@/*": [
         "../*"
       ],
+      "vue-router": [
+        "../node_modules/vue-router"
+      ],
+      "vue-router/auto-routes": [
+        "../node_modules/vue-router/vue-router-auto-routes"
+      ],
+      "nuxt": [
+        "../node_modules/nuxt"
+      ],
       "@unhead/vue": [
         "../node_modules/@unhead/vue"
       ],
@@ -44,17 +53,8 @@
       "@vue/compiler-sfc": [
         "../node_modules/@vue/compiler-sfc"
       ],
-      "vue-router": [
-        "../node_modules/vue-router"
-      ],
       "@nuxt/schema": [
-        "../node_modules/@nuxt/schema"
-      ],
-      "nuxt": [
-        "../node_modules/.pnpm/nuxt@3.21.11_@oxc-project+types@0.143.0_@parcel+watcher@2.6.0_@vue+compiler-sfc@3.5.41__435c1eade871f22b66af241ae0ab5c15/node_modules/nuxt"
-      ],
-      "nitropack": [
-        "../node_modules/nitropack"
+        "../node_modules/nuxt/node_modules/@nuxt/schema"
       ],
       "defu": [
         "../node_modules/defu"
@@ -71,11 +71,11 @@
       "crossws": [
         "../node_modules/crossws"
       ],
-      "vue-router/auto-routes": [
-        "../node_modules/vue-router/vue-router-auto-routes"
-      ],
       "unplugin-vue-router/client": [
         "../node_modules/unplugin-vue-router/client"
+      ],
+      "nitropack": [
+        "../node_modules/nitropack"
       ],
       "vite/client": [
         "../node_modules/vite/client"
@@ -117,10 +117,10 @@
         "./*"
       ],
       "#internal/nuxt/paths": [
-        "../node_modules/.pnpm/@nuxt+nitro-server@3.21.11_@parcel+watcher@2.6.0_db0@0.3.4_esbuild@0.28.2_ioredis@5.11._be0da487b3bdc28425fe4788a3138115/node_modules/@nuxt/nitro-server/dist/runtime/utils/paths"
+        "../node_modules/@nuxt/nitro-server/dist/runtime/utils/paths"
       ],
       "#unhead/composables": [
-        "../node_modules/.pnpm/nuxt@3.21.11_@oxc-project+types@0.143.0_@parcel+watcher@2.6.0_@vue+compiler-sfc@3.5.41__435c1eade871f22b66af241ae0ab5c15/node_modules/nuxt/dist/head/runtime/composables/v3"
+        "../node_modules/nuxt/dist/head/runtime/composables/v3"
       ]
     },
     "lib": [
@@ -142,7 +142,7 @@
   ],
   "exclude": [
     "../node_modules",
-    "../node_modules/.pnpm/nuxt@3.21.11_@oxc-project+types@0.143.0_@parcel+watcher@2.6.0_@vue+compiler-sfc@3.5.41__435c1eade871f22b66af241ae0ab5c15/node_modules/nuxt/node_modules",
+    "../node_modules/nuxt/node_modules",
     "../node_modules/@nuxt/devtools/node_modules",
     "../node_modules/@nuxt/telemetry/node_modules",
     "../dist"
