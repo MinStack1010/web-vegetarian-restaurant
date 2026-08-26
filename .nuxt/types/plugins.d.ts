@@ -10,7 +10,6 @@ type NuxtAppInjections =
   InjectionType<typeof import("../../node_modules/.pnpm/nuxt@3.21.11_@oxc-project+types@0.143.0_@parcel+watcher@2.6.0_@vue+compiler-sfc@3.5.41__435c1eade871f22b66af241ae0ab5c15/node_modules/nuxt/dist/head/runtime/plugins/unhead.js")> &
   InjectionType<typeof import("../../node_modules/.pnpm/nuxt@3.21.11_@oxc-project+types@0.143.0_@parcel+watcher@2.6.0_@vue+compiler-sfc@3.5.41__435c1eade871f22b66af241ae0ab5c15/node_modules/nuxt/dist/pages/runtime/plugins/router.js")> &
   InjectionType<typeof import("../../node_modules/.pnpm/nuxt@3.21.11_@oxc-project+types@0.143.0_@parcel+watcher@2.6.0_@vue+compiler-sfc@3.5.41__435c1eade871f22b66af241ae0ab5c15/node_modules/nuxt/dist/app/plugins/browser-devtools-timing.client.js")> &
-  InjectionType<typeof import("../../node_modules/.pnpm/nuxt@3.21.11_@oxc-project+types@0.143.0_@parcel+watcher@2.6.0_@vue+compiler-sfc@3.5.41__435c1eade871f22b66af241ae0ab5c15/node_modules/nuxt/dist/app/plugins/payload.client.js")> &
   InjectionType<typeof import("../../node_modules/.pnpm/nuxt@3.21.11_@oxc-project+types@0.143.0_@parcel+watcher@2.6.0_@vue+compiler-sfc@3.5.41__435c1eade871f22b66af241ae0ab5c15/node_modules/nuxt/dist/app/plugins/dev-server-logs.js")> &
   InjectionType<typeof import("../../node_modules/.pnpm/nuxt@3.21.11_@oxc-project+types@0.143.0_@parcel+watcher@2.6.0_@vue+compiler-sfc@3.5.41__435c1eade871f22b66af241ae0ab5c15/node_modules/nuxt/dist/app/plugins/navigation-repaint.client.js")> &
   InjectionType<typeof import("../../node_modules/.pnpm/nuxt@3.21.11_@oxc-project+types@0.143.0_@parcel+watcher@2.6.0_@vue+compiler-sfc@3.5.41__435c1eade871f22b66af241ae0ab5c15/node_modules/nuxt/dist/app/plugins/check-outdated-build.client.js")> &
@@ -29,7 +28,7 @@ declare module '#app' {
   interface NuxtApp extends NuxtAppInjections { }
 
   interface NuxtAppLiterals {
-    pluginName: 'vue-devtools-client' | 'nuxt:revive-payload:client' | 'nuxt:head' | 'nuxt:router' | 'nuxt:browser-devtools-timing' | 'nuxt:payload' | 'nuxt:revive-payload:server' | 'nuxt:chunk-reload' | 'nuxt:island-link-navigation' | 'nuxt:global-components' | 'nuxt:prefetch' | 'nuxt:checkIfPageUnused' | 'nuxt:checkIfLayoutUsed'
+    pluginName: 'vue-devtools-client' | 'nuxt:revive-payload:client' | 'nuxt:head' | 'nuxt:router' | 'nuxt:browser-devtools-timing' | 'nuxt:revive-payload:server' | 'nuxt:chunk-reload' | 'nuxt:island-link-navigation' | 'nuxt:global-components' | 'nuxt:prefetch' | 'nuxt:checkIfPageUnused' | 'nuxt:checkIfLayoutUsed'
   }
 }
 

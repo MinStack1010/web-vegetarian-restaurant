@@ -2224,22 +2224,7 @@ _aTwt4Gq_Fg8wOhq1MKkRx46tMy5nLn730ZJvW14KUhw,
 _wH6JrtIxmaSoA8lCPWFnE9z4lQeXW6H5z3l5aymEQw
 ];
 
-const assets = {
-  "/index.mjs": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"1bfcd-/qM+irKupqMxxLCvNtWKZEXkpes\"",
-    "mtime": "2026-08-26T08:00:50.344Z",
-    "size": 114637,
-    "path": "index.mjs"
-  },
-  "/index.mjs.map": {
-    "type": "application/json",
-    "etag": "\"6facf-4ue8dwxiNkexM7vvsxXdAxFLAgc\"",
-    "mtime": "2026-08-26T08:00:50.344Z",
-    "size": 457423,
-    "path": "index.mjs.map"
-  }
-};
+const assets = {};
 
 function readAsset (id) {
   const serverDir = dirname$1(fileURLToPath(globalThis._importMeta_.url));
@@ -2430,7 +2415,7 @@ function createSSRContext(event) {
 		url,
 		event,
 		runtimeConfig: useRuntimeConfig(event),
-		noSSR: event.context.nuxt?.noSSR || (false),
+		noSSR: true,
 		head: createHead(unheadOptions),
 		error: false,
 		nuxt: undefined,
@@ -2542,7 +2527,7 @@ function lazyCachedFunction(fn) {
 	};
 }
 function getRenderer(ssrContext) {
-	return ssrContext.noSSR ? getSPARenderer() : getSSRRenderer();
+	return getSPARenderer() ;
 }
 // @ts-expect-error file will be produced after app build
 const getSSRStyles = lazyCachedFunction(() => Promise.resolve().then(function () { return styles$1; }).then((r) => r.default || r));
@@ -3274,7 +3259,7 @@ function renderPayloadJsonScript(opts) {
 		"type": "application/json",
 		"innerHTML": contents,
 		"data-nuxt-data": appId,
-		"data-ssr": !(opts.ssrContext.noSSR)
+		"data-ssr": false
 	};
 	{
 		payload.id = "__NUXT_DATA__";
@@ -3359,7 +3344,7 @@ async function renderRoute(event, ssrError) {
 		event._path = event.node.req.url = ssrContext.url;
 	}
 	
-	const renderer = await getRenderer(ssrContext);
+	const renderer = await getRenderer();
 	const _rendered = await renderer.renderToString(ssrContext).catch(async (error) => {
 		
 		
