@@ -28,7 +28,6 @@ export default defineNuxtConfig({
       })
     ]
   },
-
   app: {
     head: {
       title: 'QUÁN CHAY MIMI · Bếp Thiền Lành'
