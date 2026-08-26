@@ -26,7 +26,7 @@
         "../node_modules/@vue/compiler-sfc"
       ],
       "@nuxt/schema": [
-        "../node_modules/nuxt/node_modules/@nuxt/schema"
+        "../node_modules/@nuxt/schema"
       ],
       "defu": [
         "../node_modules/defu"
@@ -125,7 +125,7 @@
         "./imports"
       ],
       "#app-manifest": [
-        "./manifest/meta/aa3aa80c-8215-4cc9-a257-f50bc6b86554.json"
+        "./manifest/meta/85c81bdd-bc91-43db-9530-609c8e20b0bb.json"
       ],
       "#components": [
         "./components"
