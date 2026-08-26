@@ -3,8 +3,10 @@ import vuetify from 'vite-plugin-vuetify'
 export default defineNuxtConfig({
   ssr: false,
 
+  compatibilityDate: '2025-09-01',
+
   nitro: {
-    preset: 'cloudflare'
+    preset: 'cloudflare_pages'
   },
 
   css: [
