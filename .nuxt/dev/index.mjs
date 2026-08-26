@@ -1,45 +1,47 @@
 import process from 'node:process';globalThis._importMeta_={url:import.meta.url,env:process.env};import { tmpdir } from 'node:os';
-import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, createError, sendRedirect, proxyRequest, getRequestHeader, setResponseHeaders, setResponseStatus, send, getRequestHeaders, setResponseHeader, appendResponseHeader, getRequestURL, getResponseHeader, removeResponseHeader, getQuery as getQuery$1, getRequestWebStream, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getResponseStatus, getRouterParam, readBody, getResponseStatusText } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/h3/dist/index.mjs';
+import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, createError, sendRedirect, proxyRequest, getRequestHeader, setResponseHeaders, setResponseStatus, send, getRequestHeaders, setResponseHeader, appendResponseHeader, getRequestURL, getResponseHeader, removeResponseHeader, getQuery as getQuery$1, getRequestWebStream, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getResponseStatus, getRouterParam, readBody, getResponseStatusText } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/h3@1.15.11/node_modules/h3/dist/index.mjs';
 import { Server } from 'node:http';
 import { resolve, join, dirname } from 'node:path';
 import crypto$1 from 'node:crypto';
 import { parentPort, threadId } from 'node:worker_threads';
-import { escapeHtml } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/@vue/shared/dist/shared.cjs.js';
-import viteNodeEntry_mjs from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/@nuxt/vite-builder/dist/vite-node-entry.mjs';
-import { viteNodeFetch } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/@nuxt/vite-builder/dist/vite-node.mjs';
-import { createRenderer, getRequestDependencies, getPreloadLinks, getPrefetchLinks } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery, withTrailingSlash, decodePath, withLeadingSlash, withoutTrailingSlash, encodePath, joinRelativeURL } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/ufo/dist/index.mjs';
-import { renderToString } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/vue/server-renderer/index.mjs';
-import destr, { destr as destr$1 } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/destr/dist/index.mjs';
-import { createHooks } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/hookable/dist/index.mjs';
-import { createFetch, Headers as Headers$1 } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/ofetch/dist/node.mjs';
-import { fetchNodeRequestHandler, callNodeRequestHandler } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/node-mock-http/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/unstorage/dist/index.mjs';
+import { escapeHtml } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/@vue+shared@3.5.41/node_modules/@vue/shared/dist/shared.cjs.js';
+import viteNodeEntry_mjs from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/@nuxt+vite-builder@3.21.11_magicast@0.5.4_nuxt@3.21.11_@oxc-project+types@0.143.0_@parc_ba9c94ff06d96c661f7cb6587bb19d14/node_modules/@nuxt/vite-builder/dist/vite-node-entry.mjs';
+import { viteNodeFetch } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/@nuxt+vite-builder@3.21.11_magicast@0.5.4_nuxt@3.21.11_@oxc-project+types@0.143.0_@parc_ba9c94ff06d96c661f7cb6587bb19d14/node_modules/@nuxt/vite-builder/dist/vite-node.mjs';
+import { createRenderer, getRequestDependencies, getPreloadLinks, getPrefetchLinks } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/vue-bundle-renderer@2.3.2/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery, withTrailingSlash, decodePath, withLeadingSlash, withoutTrailingSlash, encodePath, joinRelativeURL } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/ufo@1.6.4/node_modules/ufo/dist/index.mjs';
+import { renderToString } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/vue@3.5.41/node_modules/vue/server-renderer/index.mjs';
+import destr, { destr as destr$1 } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/destr@2.0.5/node_modules/destr/dist/index.mjs';
+import { createHooks } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/hookable@5.5.3/node_modules/hookable/dist/index.mjs';
+import { createFetch, Headers as Headers$1 } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/ofetch@1.5.1/node_modules/ofetch/dist/node.mjs';
+import { fetchNodeRequestHandler, callNodeRequestHandler } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/node-mock-http@1.0.5/node_modules/node-mock-http/dist/index.mjs';
+import { prefixStorage } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/unstorage@1.17.5_db0@0.3.4_ioredis@5.11.1_supports-color@10.2.2_/node_modules/unstorage/dist/index.mjs';
+import { createStorage } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/unstorage/dist/index.mjs';
 import unstorage_47drivers_47fs from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/unstorage/drivers/fs.mjs';
 import { mkdir, writeFile, rename, unlink, readFile } from 'node:fs/promises';
-import fsDriver from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/unstorage/drivers/fs-lite.mjs';
-import lruCache from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/unstorage/drivers/lru-cache.mjs';
-import { digest, hash as hash$1 } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/ohash/dist/index.mjs';
-import { klona } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/klona/dist/index.mjs';
-import defu, { defuFn } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/defu/dist/defu.mjs';
-import { snakeCase } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/scule/dist/index.mjs';
-import { getContext } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/unctx/dist/index.mjs';
-import { toRouteMatcher, createRouter } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/radix3/dist/index.mjs';
-import consola, { consola as consola$1 } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/consola/dist/index.mjs';
-import { ErrorParser } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/youch-core/build/index.js';
-import { Youch } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/youch/build/index.js';
-import { SourceMapConsumer } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/source-map/source-map.js';
+import fsDriver from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/unstorage@1.17.5_db0@0.3.4_ioredis@5.11.1_supports-color@10.2.2_/node_modules/unstorage/drivers/fs-lite.mjs';
+import lruCache from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/unstorage@1.17.5_db0@0.3.4_ioredis@5.11.1_supports-color@10.2.2_/node_modules/unstorage/drivers/lru-cache.mjs';
+import { digest, hash as hash$1 } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/ohash@2.0.12/node_modules/ohash/dist/index.mjs';
+import { klona } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/klona@2.0.6/node_modules/klona/dist/index.mjs';
+import { defuFn } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/defu/dist/defu.mjs';
+import { snakeCase } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/scule@1.3.0/node_modules/scule/dist/index.mjs';
+import { getContext } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/unctx@2.5.0/node_modules/unctx/dist/index.mjs';
+import defu from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/defu@6.1.7/node_modules/defu/dist/defu.mjs';
+import { toRouteMatcher, createRouter } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/radix3@1.1.2/node_modules/radix3/dist/index.mjs';
+import consola, { consola as consola$1 } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/consola@3.4.2/node_modules/consola/dist/index.mjs';
+import { ErrorParser } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/youch-core@0.3.3/node_modules/youch-core/build/index.js';
+import { Youch } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/youch@4.1.1/node_modules/youch/build/index.js';
+import { SourceMapConsumer } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/source-map@0.7.6/node_modules/source-map/source-map.js';
 import { AsyncLocalStorage } from 'node:async_hooks';
-import { stringify, uneval } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/devalue/index.js';
-import { captureRawStackTrace, parseRawStackTrace } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/errx/dist/index.mjs';
-import { isVNode, isRef, toValue } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/vue/index.mjs';
-import _wH6JrtIxmaSoA8lCPWFnE9z4lQeXW6H5z3l5aymEQw from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/@nuxt/vite-builder/dist/fix-stacktrace.mjs';
+import { stringify, uneval } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/devalue@5.9.1/node_modules/devalue/index.js';
+import { captureRawStackTrace, parseRawStackTrace } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/errx@0.1.2/node_modules/errx/dist/index.mjs';
+import { isVNode, isRef, toValue } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/vue@3.5.41/node_modules/vue/index.mjs';
+import _wH6JrtIxmaSoA8lCPWFnE9z4lQeXW6H5z3l5aymEQw from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/@nuxt+vite-builder@3.21.11_magicast@0.5.4_nuxt@3.21.11_@oxc-project+types@0.143.0_@parc_ba9c94ff06d96c661f7cb6587bb19d14/node_modules/@nuxt/vite-builder/dist/fix-stacktrace.mjs';
 import { promises } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname as dirname$1, resolve as resolve$1 } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/pathe/dist/index.mjs';
-import { createHead as createHead$1, propsToString, renderSSRHead } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/unhead/dist/server.mjs';
-import { DeprecationsPlugin, PromisesPlugin, TemplateParamsPlugin, AliasSortingPlugin } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/unhead/dist/plugins.mjs';
-import { walkResolver } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/unhead/dist/utils.mjs';
+import { createHead as createHead$1, propsToString, renderSSRHead } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/unhead@2.1.17/node_modules/unhead/dist/server.mjs';
+import { DeprecationsPlugin, PromisesPlugin, TemplateParamsPlugin, AliasSortingPlugin } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/unhead@2.1.17/node_modules/unhead/dist/plugins.mjs';
+import { walkResolver } from 'file:///Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/node_modules/.pnpm/unhead@2.1.17/node_modules/unhead/dist/utils.mjs';
 
 const serverAssets = [{"baseName":"server","dir":"/Users/plogg/Downloads/quan-chay-mimi-nuxt-vuetify-fixed/server/assets"}];
 
@@ -2141,7 +2143,7 @@ const asyncContext = getContext("nuxt-dev", {
 	asyncContext: true,
 	AsyncLocalStorage
 });
-const _mUrGvTEubJJ4rM9l7zss9xbSHuORQ4zAzMJKDutCac = (nitroApp) => {
+const _aTwt4Gq_Fg8wOhq1MKkRx46tMy5nLn730ZJvW14KUhw = (nitroApp) => {
 	const handler = nitroApp.h3App.handler;
 	nitroApp.h3App.handler = (event) => {
 		return asyncContext.callAsync({
@@ -2218,23 +2220,23 @@ function onConsoleLog(callback) {
 
 const plugins = [
   _hLgeGLqznG7Ie0QgTmvmTK2Jqxs1w0NnOftuUwWnk,
-_mUrGvTEubJJ4rM9l7zss9xbSHuORQ4zAzMJKDutCac,
+_aTwt4Gq_Fg8wOhq1MKkRx46tMy5nLn730ZJvW14KUhw,
 _wH6JrtIxmaSoA8lCPWFnE9z4lQeXW6H5z3l5aymEQw
 ];
 
 const assets = {
   "/index.mjs": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"1bc57-/5dek7bPFFr6SPvrASdH8UThcM0\"",
-    "mtime": "2026-08-26T07:20:01.534Z",
-    "size": 113751,
+    "etag": "\"1bfcd-/qM+irKupqMxxLCvNtWKZEXkpes\"",
+    "mtime": "2026-08-26T07:47:00.280Z",
+    "size": 114637,
     "path": "index.mjs"
   },
   "/index.mjs.map": {
     "type": "application/json",
-    "etag": "\"6f638-WGnPedNI5crJzh1kk16yKOliTgs\"",
-    "mtime": "2026-08-26T07:20:01.534Z",
-    "size": 456248,
+    "etag": "\"6facf-4ue8dwxiNkexM7vvsxXdAxFLAgc\"",
+    "mtime": "2026-08-26T07:47:00.280Z",
+    "size": 457423,
     "path": "index.mjs.map"
   }
 };
@@ -2262,7 +2264,7 @@ function getAsset (id) {
 
 const METHODS = /* @__PURE__ */ new Set(["HEAD", "GET"]);
 const EncodingMap = { gzip: ".gz", br: ".br" };
-const _W2OjwZ = eventHandler((event) => {
+const _xQgvsr = eventHandler((event) => {
   if (event.method && !METHODS.has(event.method)) {
     return;
   }
@@ -2897,13 +2899,13 @@ async function getIslandContext(event) {
 	};
 }
 
-const _lazy_llSOja = () => Promise.resolve().then(function () { return renderer; });
+const _lazy_MOjEsr = () => Promise.resolve().then(function () { return renderer; });
 
 const handlers = [
-  { route: '', handler: _W2OjwZ, lazy: false, middleware: true, method: undefined },
-  { route: '/__nuxt_error', handler: _lazy_llSOja, lazy: true, middleware: false, method: undefined },
+  { route: '', handler: _xQgvsr, lazy: false, middleware: true, method: undefined },
+  { route: '/__nuxt_error', handler: _lazy_MOjEsr, lazy: true, middleware: false, method: undefined },
   { route: '/__nuxt_island/**', handler: handler$1, lazy: false, middleware: false, method: undefined },
-  { route: '/**', handler: _lazy_llSOja, lazy: true, middleware: false, method: undefined }
+  { route: '/**', handler: _lazy_MOjEsr, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
@@ -3347,8 +3349,8 @@ async function renderRoute(event, ssrError) {
 		ssrContext.noSSR = true;
 	}
 	
-	const _PAYLOAD_EXTRACTION = !ssrContext.noSSR && (NUXT_RUNTIME_PAYLOAD_EXTRACTION);
-	const isRenderingPayload = (_PAYLOAD_EXTRACTION || routeOptions.prerender) && PAYLOAD_URL_RE.test(ssrContext.url);
+	!ssrContext.noSSR && (NUXT_RUNTIME_PAYLOAD_EXTRACTION);
+	const isRenderingPayload = (routeOptions.prerender) && PAYLOAD_URL_RE.test(ssrContext.url);
 	if (isRenderingPayload) {
 		const payloadURL = new URL(ssrContext.url, "http://localhost");
 		const url = payloadURL.pathname.slice(0, -`/${PAYLOAD_FILENAME}`.length) || "/";
@@ -3356,7 +3358,6 @@ async function renderRoute(event, ssrError) {
 		ssrContext.url = url + payloadURL.search;
 		event._path = event.node.req.url = ssrContext.url;
 	}
-	const payloadURL = _PAYLOAD_EXTRACTION ? buildPayloadURL(ssrContext) : undefined;
 	
 	const renderer = await getRenderer(ssrContext);
 	const _rendered = await renderer.renderToString(ssrContext).catch(async (error) => {
@@ -3393,15 +3394,6 @@ async function renderRoute(event, ssrError) {
 	const NO_SCRIPTS = routeOptions.noScripts;
 	
 	const { styles, scripts } = getRequestDependencies(ssrContext, renderer.rendererContext);
-	
-	if (_PAYLOAD_EXTRACTION && !NO_SCRIPTS) {
-		ssrContext.head.push({ link: [{
-			rel: "preload",
-			as: "fetch",
-			crossorigin: "anonymous",
-			href: payloadURL
-		} ] }, headEntryOptions);
-	}
 	if (ssrContext["~preloadManifest"] && !NO_SCRIPTS) {
 		ssrContext.head.push({ link: [{
 			rel: "preload",
@@ -3444,11 +3436,7 @@ async function renderRoute(event, ssrError) {
 		const stylesheetHrefs = new Set(link.map((l) => l.href));
 		ssrContext.head.push({ link: [...getPreloadLinks(ssrContext, renderer.rendererContext, dependencyOptions), ...getPrefetchLinks(ssrContext, renderer.rendererContext, dependencyOptions)].filter((l) => !stylesheetHrefs.has(l.href)) }, headEntryOptions);
 		
-		ssrContext.head.push({ script: _PAYLOAD_EXTRACTION ? renderPayloadJsonScript({
-			ssrContext,
-			data: splitPayload(ssrContext).initial,
-			src: payloadURL
-		})  : renderPayloadJsonScript({
+		ssrContext.head.push({ script: renderPayloadJsonScript({
 			ssrContext,
 			data: ssrContext.payload
 		})  }, {
@@ -3493,13 +3481,6 @@ async function renderRoute(event, ssrError) {
 			"x-powered-by": "Nuxt"
 		}
 	};
-}
-function buildPayloadURL(ssrContext) {
-	const url = new URL(ssrContext.url, "http://localhost");
-	const baseURL = ssrContext.runtimeConfig.app.cdnURL || ssrContext.runtimeConfig.app.baseURL;
-	const payloadURL = joinURL(baseURL, url.pathname, PAYLOAD_FILENAME);
-	url.searchParams.set(PAYLOAD_BUILD_ID_PARAM, ssrContext.runtimeConfig.app.buildId);
-	return payloadURL + url.search;
 }
 function normalizeChunks(chunks) {
 	const result = [];
