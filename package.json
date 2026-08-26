@@ -1,0 +1,18 @@
+{
+  "name": "quan-chay-mimi",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "nuxt": "^3.21.11",
+    "vite-plugin-vuetify": "^2.1.3",
+    "vuetify": "^3.13.2"
+  },
+  "devDependencies": {
+    "sass": "^1.103.1"
+  }
+}
